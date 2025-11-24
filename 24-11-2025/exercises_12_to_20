@@ -1,0 +1,57 @@
+# Exercise 12
+x = int(input("Enter a number: "))
+print("Square: ", x**2)
+print("Cube: ", x**3)
+
+
+# Exercise 13
+x = int(input("Enter total minutes: "))
+print(f"{x} mintues is ", x//60, "hours and ", x%60, "minutes")
+
+
+# Exercise 14
+a,b = int(input("Enter a: ")),int(input("Enter b: "))
+a,b = b,a
+print("After swapping, a: ",a,", b: ", b)
+
+# or
+# a = a+b
+# b = a-b
+# a = a-b
+# print("After swapping, a: ",a,", b: ", b)
+
+
+# Exercise 15
+x = int(input())
+print("Positive" if x>0 else "Negative" if x<0 else "Zero")
+
+
+# Exercise 16
+x = int(input())
+print("The last digit is ", x%10)
+
+
+# Exercise 17
+x = int(input())
+sum = 0
+for i in range(1,x+1):
+    sum += i
+print(f"The sum up to {x} is ",sum)
+
+
+# Exercise 18
+x = int(input())
+for i in range(1,11):
+    print(f"{x} * {i} = ",x*i)
+
+# Exercise 19
+x = input("Enter a number: ")
+print("Total digits are ", len(x))
+
+
+# Exercise 20
+x = input("Enter a number: ")
+print("The number in reverse is: ", end = "")
+for i in range (len(x)-1, -1, -1):
+    print(x[i], end="")
+
