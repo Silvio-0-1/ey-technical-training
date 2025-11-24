@@ -31,3 +31,8 @@ print(fruits)
 
 fruits.insert(1, "banana")
 print(fruits)
+
+fruits.remove("banana")
+fruits.pop(2)
+fruits.pop()
+del fruits[0]
