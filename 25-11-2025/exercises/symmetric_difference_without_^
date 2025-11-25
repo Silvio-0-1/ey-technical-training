@@ -1,6 +1,3 @@
-# Given two sets, print the elements that are present in the union but not in the intersection.
-# (Equivalent to symmetric difference but do not use ^ .)
-
 s1 = {1, 2, 3, 4, 5}
 s2 = {3, 4, 5, 6 ,7, 8}
 
