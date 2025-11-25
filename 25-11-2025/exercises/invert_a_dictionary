@@ -1,0 +1,13 @@
+dict = {"a": 1, "b": 2, "c": 1}
+rev_dict = {}
+
+for i, j in dict.items():
+    if j in rev_dict:
+        li = []
+        li.append(rev_dict[j])
+        li.append(i)
+        rev_dict[j] = li
+    else:
+        rev_dict[j] = i
+
+print(rev_dict)
