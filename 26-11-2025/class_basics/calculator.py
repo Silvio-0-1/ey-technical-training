@@ -13,9 +13,10 @@ class Calculator:
     return self.x * self.y
   
   def div(self):
-    if self.y == 0:
-      raise ZeroDivisionError("Cannot divide by zero")
-    return self.x / self.y
+    try:
+      return self.x/self.y
+    except ZeroDivisionError:
+      return "Cannot divide by zero"
 
 c = Calculator(int(input()),int(input()))
 print("Addition:", c.add())
