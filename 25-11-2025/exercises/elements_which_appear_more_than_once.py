@@ -12,3 +12,10 @@ for i, j in dict.items():
     if j > 1:
         li2.append(i)
 print(li2)
+
+# or
+
+# for i in set(li):
+#     if li.count(i) > 1:
+#         li2.append(i)
+# print(li2)
