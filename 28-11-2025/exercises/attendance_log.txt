@@ -1,0 +1,3 @@
+shubham, Status: Present, Reporting Time: 9:40
+bishal, Status: Present, Reporting Time: 8:45
+niket, Status: Absent

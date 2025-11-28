@@ -1,0 +1,6 @@
+Expense Report:
+
+Milk: Rs. 30
+Veggies: Rs. 70
+Fish: Rs. 150
+Total Expense: 250
