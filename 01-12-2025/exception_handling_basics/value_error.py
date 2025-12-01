@@ -1,7 +1,7 @@
 try:
   num = int(input("Enter number: "))
   print(10 / num)
-except VatueError:
-  print("Invalid number: ")
+except ValueError:
+  print("Invalid number!")
 except ZeroDivisionError:
-  print("Cannot divide by zero")
+  print("Cannot divide by zero!")
