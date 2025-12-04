@@ -1,0 +1,81 @@
+### Python Basics (4 Exercises)
+
+1. Write a program to take three numbers as input and print the largest.
+2. Write a program to check if a given string is a palindrome.
+3. Write a program to count how many times each character appears in a string.
+4. Write a program to remove all special characters from a string.
+
+### Data Structures – Lists, Tuples, Sets, Dictionaries (8 Exercises)
+
+**Lists**
+
+5. Given a list of numbers, remove all duplicates without using set.
+6. Rotate a list to the right by N positions.
+7. Given a list of strings, return a new list containing only strings longer than 4 characters.
+   
+**Tuples**
+
+8. Write a program to convert a list of tuples into a dictionary.
+9. Given a tuple of numbers, find the second largest number.
+
+**Sets**
+
+10. Given two sets, find elements that are in either set but not in both (without symmetric difference operator).
+11. Given a list, print only those elements whose frequency is exactly 2 using sets.
+
+**Dictionaries**
+
+12. Combine two dictionaries. If a key exists in both, create a list of values.
+
+### Functions (5 Exercises)
+
+13. Write a function that accepts a list of numbers and returns the average.
+14. Write a function that returns the factorial of a number.
+15. Write a function that removes all vowels from a string.
+16. Write a function that takes a start and end value and returns a list of prime numbers between them.
+17. Write a function that finds the longest word in a given sentence.
+
+### Lambda Functions (3 Exercises)
+
+18. Use lambda to sort a list of dictionaries by the key "age".
+19. Use lambda to compute squares of all elements in a list.
+20. Use lambda with filter to return only even numbers from a list.
+
+
+### File Handling (5 Exercises)
+
+21. Write a program to create a file and write 5 lines into it.
+22. Write a program to read a file and count the number of lines containing the word "Python".
+23. Write a program to append a timestamped log entry into a file.
+24. Read a CSV file and print only rows where marks > 75.
+25. Create a file that stores the squares of numbers from 1 to 20.
+
+### Classes & Objects (5 Exercises)
+
+26. Create a class Book with title, author, pages. Add method to check if pages > 300.
+27. Create a class BankAccount with deposit and withdraw methods.
+28. Create a class Rectangle with methods to calculate area and perimeter.
+29. Create a class Student that stores marks of three subjects and calculates percentage.
+30. Create a class Mobile with brand, model, and method to show details.
+
+### Constructors & Methods (3 Exercises)
+
+31. Create a class Employee with constructor and method to print details.
+32. Create a class Temperature with constructor and methods to convert Celsius to Fahrenheit and vice versa.
+33. Create a class Laptop with constructor taking brand, RAM, price, and method to calculate discount.
+
+### Inheritance (4 Exercises)
+
+34. Create parent class Vehicle and child class Car that overrides a method start().
+35. Create Person → Employee → Manager (multilevel). Add different methods in each.
+36. Create a base class Payment and child classes: CreditCardPayment and UPIPayment. Override process().
+37. Create two parent classes Camera and Phone, and a child class SmartPhone (multiple inheritance).
+
+### Polymorphism & Method Overriding (2 Exercises)
+
+38. Create two classes Cat and Dog. Both should have a method sound() that behaves differently.
+39. Create a Notification parent class and override send() in EmailNotification and SMSNotification.
+
+### Operator Overloading (1 Exercise)
+
+40. Create a class Score that overloads the + operator to combine two scores, and overloads > to compare them.
