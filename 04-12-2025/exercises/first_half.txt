@@ -1,0 +1,4 @@
+Line 1: The quick brown fox jumps over the lazy dog.
+Line 2: 42 is the answer to life, the universe, and everything.
+Line 3: Bananas are best enjoyed with peanut butter.
+Line 4: Random 

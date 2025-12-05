@@ -1,0 +1,8 @@
+[2025-12-06 00:24:52] Application started
+[2025-12-06 00:24:52] User logged in
+[2025-12-06 00:24:52] Error: Invalid input detected
+[2025-12-06 00:24:52] Application closed
+[2025-12-06 00:29:08] Application started
+[2025-12-06 00:29:08] User logged in
+[2025-12-06 00:29:08] Error: Invalid input detected
+[2025-12-06 00:29:08] Application closed
