@@ -1,0 +1,129 @@
+### Superstore Dataset (60 rows)
+
+CustomerName,OrderID,OrderDate,Region,ShipDate,City,CustomerID,Segment,Category,SubCategory,ProductName,UnitPrice,Discount,Quantity,Sales,Profit,Returned
+
+David Miller,1001,02-01-2024,West,05-01-2024,Los Angeles,C001,Consumer,Technology,Laptops,HP Pavilion 15,720,0,1,720,95,No
+
+Sarah Johnson,1002,02-01-2024,Central,06-01-2024,Chicago,C002,Corporate,Furniture,Chairs,ErgoMax Pro Chair,140,0.1,2,252,30,No
+
+John Lee,1003,03-01-2024,East,07-01-2024,New York,C003,Home Office,Office Supplies,Binders,Premium Binder Pack,12,0,5,60,11,No
+
+Ana Gomez,1004,03-01-2024,South,08-01-2024,Miami,C004,Consumer,Technology,Phones,Samsung Galaxy A54,399,0.05,1,379.05,48,No
+
+Karen Black,1005,04-01-2024,West,09-01-2024,Seattle,C005,Consumer,Furniture,Tables,Oak Wooden Table,450,0,1,450,52,Yes
+
+Robert Brown,1006,04-01-2024,Central,08-01-2024,Denver,C006,Corporate,Office Supplies,Pens,Blue Pen Pack (20),8,0,3,24,5,No
+
+Emily Davis,1007,05-01-2024,East,10-01-2024,Boston,C007,Consumer,Technology,Accessories,Wireless Mouse,18,0,4,72,14,No
+
+Kyle Young,1008,05-01-2024,South,11-01-2024,Atlanta,C008,Home Office,Furniture,Chairs,ComfortMesh Chair,160,0.15,1,136,19,No
+
+Sophia Hill,1009,06-01-2024,West,12-01-2024,Portland,C009,Consumer,Technology,Phones,iPhone SE,429,0,2,858,115,No
+
+Tom Harris,1010,06-01-2024,Central,13-01-2024,St. Louis,C010,Corporate,Office Supplies,Paper,A4 Copier Paper (500),5,0,10,50,6,No
+
+Olivia Adams,1011,07-01-2024,East,14-01-2024,Philadelphia,C011,Home Office,Furniture,Tables,Adjustable Standing Desk,320,0.1,1,288,35,No
+
+Ethan Clark,1012,07-01-2024,South,15-01-2024,Orlando,C012,Consumer,Technology,Accessories,USB-C Cable,9,0,6,54,12,No
+
+Isabella Scott,1013,08-01-2024,West,16-01-2024,San Diego,C013,Consumer,Furniture,Sofas,Modern Sofa 3-Seater,850,0.2,1,680,88,Yes
+
+George Wilson,1014,08-01-2024,Central,17-01-2024,Minneapolis,C014,Corporate,Office Supplies,Markers,Color Marker Set,7,0,4,28,4,No
+
+Abigail Perez,1015,09-01-2024,East,18-01-2024,Newark,C015,Consumer,Technology,Tablets,iPad 10th Gen,450,0.05,1,427.5,60,No
+
+Noah Walker,1016,09-01-2024,South,19-01-2024,Charlotte,C016,Home Office,Furniture,Desks,Compact Writing Desk,210,0,1,210,27,No
+
+Michael Green,1017,10-01-2024,West,20-01-2024,Las Vegas,C017,Consumer,Technology,TVs,Sony 43-inch LED,540,0.1,1,486,62,No
+
+Chloe Ramirez,1018,10-01-2024,Central,21-01-2024,Columbus,C018,Corporate,Office Supplies,Notebooks,Hardcover Notebook,4,0,8,32,6,No
+
+Lucas Cook,1019,11-01-2024,East,22-01-2024,Baltimore,C019,Consumer,Technology,Accessories,Laptop Stand,24,0,2,48,12,No
+
+Ava Howard,1020,11-01-2024,South,23-01-2024,Nashville,C020,Home Office,Furniture,Chairs,Executive Leather Chair,260,0.05,1,247,28,No
+
+Daniel Ward,1021,12-01-2024,West,24-01-2024,Sacramento,C021,Consumer,Furniture,Bed,Queen Bed Frame,600,0.1,1,540,72,Yes
+
+Harper Reed,1022,12-01-2024,Central,25-01-2024,Kansas City,C022,Corporate,Office Supplies,Envelopes,White Envelope Pack,3,0,6,18,3,No
+
+Benjamin Brooks,1023,13-01-2024,East,26-01-2024,Pittsburgh,C023,Consumer,Technology,Accessories,Keyboard,22,0.1,3,59.4,9,No
+
+Grace Bennett,1024,13-01-2024,South,27-01-2024,San Antonio,C024,Home Office,Furniture,Shelves,Wooden Shelf Unit,180,0,1,180,24,No
+
+Elijah Rivera,1025,14-01-2024,West,28-01-2024,Fresno,C025,Consumer,Technology,Laptops,Dell Inspiron 14,640,0,1,640,85,No
+
+Mia Mitchell,1026,14-01-2024,Central,29-01-2024,Indianapolis,C026,Corporate,Office Supplies,Stapler,Premium Stapler,14,0,2,28,5,No
+
+Henry Price,1027,15-01-2024,East,30-01-2024,Cleveland,C027,Consumer,Furniture,Tables,Round Dining Table,520,0.05,1,494,58,No
+
+Lily Torres,1028,15-01-2024,South,31-01-2024,Dallas,C028,Home Office,Technology,Printers,HP LaserJet Pro,290,0,1,290,34,No
+
+Owen Jenkins,1029,16-01-2024,West,01-02-2024,San Jose,C029,Consumer,Office Supplies,Binders,Premium Binders (12),11,0,2,22,4,No
+
+Aiden Lewis,1030,16-01-2024,Central,02-02-2024,Detroit,C030,Corporate,Technology,Accessories,Webcam,45,0,1,45,9,No
+
+
+
+### A. DATA LOADING & INSPECTION
+
+1. Load the CSV and display rst 10 rows.
+2. Show total number of rows and columns.
+3. Find data types of each column.
+4. Identify columns containing missing values.
+5. Convert OrderDate and ShipDate to datetime.
+   
+### B. CLEANING & TRANSFORMATIONS
+
+6. Create a new column ShippingDays = ShipDate - OrderDate.
+7. Create Pro tMargin = Pro t / Sales.
+8. Standardize CustomerName to title case.
+9. Remove rows where Sales is zero or negative.
+10. Convert Discount from decimal to percentage format.
+   
+### C. FILTERING
+
+11. Filter all orders from the West region.
+12. Filter Technology category with Sales > 400.
+13. Find all products returned by customers.
+14. Show Furniture orders shipped after 2024-01-20.
+15. Filter orders where Pro t < 20.
+    
+### D. SORTING
+
+16. Sort by Sales descending.
+17. Sort by Pro tMargin.
+18. Sort by Region then City.
+19. Sort by ShippingDays largest to smallest.
+20. Sort by CustomerName alphabetical.
+    
+### E. GROUPBY ANALYSIS
+
+21. Total Sales per Region.
+22. Average Pro t per Category.
+23. Count of orders per Customer.
+24. Sum of Sales per Segment.
+25. Total Quantity sold per SubCategory.
+26. Mean ShippingDays grouped by Category.
+
+### F. PIVOT TABLES
+
+27. Create pivot: Rows = Region, Columns = Category, Values = Sales.
+28. Pivot showing Profit by SubCategory and Segment.
+29. Pivot showing count of orders by Returned status and Region.
+30. Pivot showing average UnitPrice per Category.
+31. Pivot showing total Quantity per Month and Region.
+
+### G. JOINING / MERGING
+
+32. Create a discount lookup: Consumer=5, Corporate=8, Home Office=10 and merge it.
+33. Create a region tax table and merge.
+34. Merge customer-level totals into the main df.
+35. Merge product-level profitability summary.
+
+### H. DATE OPERATIONS
+
+36. Extract year, month, day from OrderDate.
+37. Calculate which day of week each order was placed.
+38. Find orders shipped in more than 5 days.
+39. Group orders by month and compute sales.
+40. Plot sales trend per month (line chart).
