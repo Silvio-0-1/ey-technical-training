@@ -1,4 +1,4 @@
-# 17. Write a function that returns True if a given year is a leap year.
+# 1\7. Write a function that returns True if a given year is a leap year.
 
 from datetime import datetime
 

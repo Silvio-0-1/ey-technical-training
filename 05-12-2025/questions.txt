@@ -1,7 +1,3 @@
 Real-World Use Cases
 
-17. Write a function that returns True if a given year is a leap year.
-18. Given a list of expiry dates, find which products expire within the next 15 days.
-19. Convert a list of date strings into datetime objects and sort them.
-20. Generate a list of dates for the next 30 days starting from today.
 

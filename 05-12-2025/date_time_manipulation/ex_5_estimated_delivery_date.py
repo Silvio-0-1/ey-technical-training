@@ -1,4 +1,4 @@
-# 15. Given a order_date and delivery_timeline, calculate estimated_delivery_date.
+# 5. Given a order_date and delivery_timeline, calculate estimated_delivery_date.
 
 from datetime import datetime, timedelta
 
