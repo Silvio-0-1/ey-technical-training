@@ -84,24 +84,30 @@ def search_by_name():
         SELECT * FROM employee_details
         WHERE emp_name = %s
     """
+    cursor.execute(query, name)
     rows = cursor.fetchall()
-    for row in rows:
-        print(row)
-    cursor.execute(query, (name))
-    print("Employee details displayed successfully!")
+    if rows:
+        for row in rows:
+            print(row)
+        print("Employee details displayed successfully!")
+    else:
+        print("Employee does not exist!")
 
 # 6. Export to CSV
 import pandas as pd
+
 def export_to_csv():
     query = """
-            SELECT * FROM employee_details
-        """
+        SELECT * FROM employee_details
+    """
     cursor.execute(query)
     rows = cursor.fetchall()
-    df = pd.DataFrame(rows)
+
+    columns = [col[0] for col in cursor.description]
+
+    df = pd.DataFrame(rows, columns=columns)
     df.to_csv("employee_details.csv", index=False)
     print("Employee details exported successfully!")
-
 
 while 1:
     print("\n\nWelcome to the employee management app!")
