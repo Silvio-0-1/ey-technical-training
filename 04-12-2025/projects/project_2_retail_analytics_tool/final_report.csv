@@ -1,0 +1,11 @@
+order_id,customer_name,product_id,quantity,price,product_name,category,revenue
+1,Alice,101,2,500.0,Laptop,Electronics,1000.0
+2,Bob,102,1,1200.0,Smartphone,Electronics,1200.0
+3,Charlie,103,3,150.0,Headphones,Accessories,450.0
+4,David,101,1,500.0,Laptop,Electronics,500.0
+5,Eva,104,5,80.0,Notebook,Stationery,400.0
+6,Frank,105,2,300.0,Backpack,Fashion,600.0
+7,Grace,102,2,1200.0,Smartphone,Electronics,2400.0
+8,Hannah,103,4,150.0,Headphones,Accessories,600.0
+9,Ian,104,3,80.0,Notebook,Stationery,240.0
+10,Jack,105,1,300.0,Backpack,Fashion,300.0

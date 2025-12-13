@@ -15,6 +15,7 @@ conn = pymysql.connect(
     password='P@ssword',
     database='emp'
 )
+print("Connecting to database...")
 if conn:
     print("Connection is successful")
 
